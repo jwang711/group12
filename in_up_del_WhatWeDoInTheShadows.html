@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <nav>
+        <a href='displayreviewers.html'>MY HOME</a>
+        <a href='displaymovie.html'>MOVIES</a>
+        <a href='displayratings.html'>REVIEWS</a>
+        <a href='displayDirector.html'>DIRECTORS</a>
+        <a href='displayActor.html'>ACTORS</a>
+        <input type="text" placeholder="Search by Movie or Director">
+        <button type="submit">SEARCH</button>
+    </nav>
+    <div class="center">
+        <h3>What We Do In The Shadows</h3>
+    </div>
+    <br><br>
+    <table style="float:left;">
+        <thead>
+            <tr>
+                <th>Ratings</th>
+                <th>Director</th>
+                <th>Box office</th>
+                <th>Budget</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Actor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td><a href="in_up_del_TaikaWaititi.html">Taika Waititi</a></td>
+                <td>$7,000,000 USD</td>
+                <td>$1,600,000 USD</td>
+                <td>Mockumentary Horror Comedy</td>
+                <td>2014</td>
+                <td>Jemaine Clement</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <div class="center">
+        <form action="" style="float:right; border:1px solid #ccc">
+            <div class="reviewContainer">
+                <h3>Add a Review</h3>
+
+                <div class="stars">
+                    <div class="rate">
+                        <input type="radio" id="star10" name="rate" value="10" /><label for="star10" title="10 stars"></label>
+                        <input type="radio" id="star9" name="rate" value="9" /><label for="star9" title="9 stars"></label>
+                        <input type="radio" id="star8" name="rate" value="8" /><label for="star8" title="8 stars"></label>
+                        <input type="radio" id="star7" name="rate" value="7" /><label for="star7" title="7 stars"></label>
+                        <input type="radio" id="star6" name="rate" value="6" /><label for="star6" title="6 star"></label>
+                        <input type="radio" id="star5" name="rate" value="5" /><label for="star5" title="5 stars"></label>
+                        <input type="radio" id="star4" name="rate" value="4" /><label for="star4" title="4 stars"></label>
+                        <input type="radio" id="star3" name="rate" value="3" /><label for="star3" title="3 stars"></label>
+                        <input type="radio" id="star2" name="rate" value="2" /><label for="star2" title="2 stars"></label>
+                        <input type="radio" id="star1" name="rate" value="1" /><label for="star1" title="1 star"></label>
+                    </div>
+                </div>
+
+                <label for="headline"></label>
+                <input type="text" name="headline" style="width: 500px;" placeholder='Write a headline for your review'>
+                <br>
+
+                <label for="reviewBox"></label>
+                <textarea name="reviewBox" style="width: 500px;" cols="50" rows="10" placeholder="Write your review here"></textarea>
+                <br>
+
+                <div class="clearfix">
+                    <button type="submit" class="addReview">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <br><br>
+
+    <table style="float:left;">
+        <thead>
+            <tr>
+                <th>Review</th>
+                <th>Reviewer</th>
+                <th>UPDATE</th>
+                <th>DELETE</th>
+            </tr>
+        </thead>
+        <tr>
+            <td><textarea name="review1" style="width: 250px;" cols="50" rows="10" disabled>What a movie! The greatest this generation has ever seen, superb!</textarea></td>
+            <td><a href="displayreviewers.html">xXBobSmithXx</a></td>
+            <td><button>UPDATE</button></td>
+            <td><button>DELETE</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>

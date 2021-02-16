@@ -1,0 +1,14 @@
+nav a{
+  padding: 5%;
+}
+ul {
+  text-align: center;
+}
+li {
+  text-align: center;
+  display: inline;
+  padding: 10%;
+}
+h3, h4{
+  text-align: center;
+}

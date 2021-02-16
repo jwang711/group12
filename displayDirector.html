@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <nav>
+        <a href='displayreviewers.html'>MY HOME</a>
+        <a href='displaymovie.html'>MOVIES</a>
+        <a href='displayratings.html'>REVIEWS</a>
+        <a href='displayDirector.html'>DIRECTORS</a>
+        <a href='displayActor.html'>ACTORS</a>
+        <input type="text" placeholder="Search by Movie or Director">
+        <button type="submit">SEARCH</button>
+    </nav>
+    <div class="center">
+        <h3>Director</h3>
+    </div>
+    <table style="float: left;">
+        <thead>
+            <tr>
+                <th>Director</th>
+                <th>UPDATE</th>
+                <th>DELETE</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <td><a href='in_up_del_SpikeLee.html'>Spike Lee</a> </td>
+                <td><button>UPDATE</button></td>
+                <td><button>DELETE</button></td>
+            </tr>           <tr>
+                <td><a href='in_up_del_TaikaWaititi.html'>Taika Waititi</a></td>
+                <td><button>UPDATE</button></td>
+                <td><button>DELETE</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <div class="center">
+        <form action="" style="float:right; border:1px solid #ccc">
+            <div class="reviewContainer">
+                <h3>Add a Director</h3>
+
+                <label for="director"></label>
+                <input type="text" name="director" style="width: 500px;" placeholder="Director's Name">
+                <br>
+                <br>
+                <div class="clearfix">
+                    <button type="submit" class="addReview">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

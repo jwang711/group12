@@ -1,0 +1,122 @@
+nav a{
+  padding: 5%;
+}
+
+.w {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding: 25px 25px;
+    position:relative;
+}
+.w1 {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px 10px;
+  position:relative;
+}
+
+/* CS340 - Portfolio Assignment - Group 12 */
+.bottom {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* header create account */
+h1 {
+    padding: 0px;
+    margin:0px,0px,10px;
+    font: Arial,sans-serif,28px;
+    padding:0px,0px,4px;
+    margin-bottom: 15px;
+}
+
+/* signup login input */
+.container input {
+  padding: 3px 0px 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border:none;
+  background: #f1f1f1;
+  
+}
+
+.container b{
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.signupbtn:hover {
+  opacity:1;
+}
+
+/* create your account */
+.signupbtn {
+  float: left;
+  width: 300px;
+  background-color: orange;
+  color: black;
+  padding: 13px 18px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 7px 20px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* create account button */
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+/*               CSS for search page             */
+.searchbtn {
+  float: left;
+  width: 85px;
+  background-color: orange;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin: 10px;
+
+}
+
+.searchcontainer input {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border:none;
+  background: #f1f1f1;  
+}
+
+/* h3 Search by movie, director*/
+h3 {
+  padding: 5px;
+  margin:5px;
+  font: Arial,sans-serif,28px;
+  margin-bottom: 15px;
+}
